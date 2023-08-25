@@ -70,7 +70,7 @@ def NhanArap(x, y, m, n):
         z = c + z
     return z
 
-def main():
+if __name__ == "__main__":
     x = input("Nhập Số Đầu Tiên: ")
     y = input("Nhập Số Thứ Hai : ")
     m = len(x)  # Độ dài của số thứ nhất
@@ -79,6 +79,3 @@ def main():
     View(m, n)  # Hiển thị ma trận
     result = NhanArap(x, y, m, n)  # Thực hiện phép nhân Arap
     print(result)  # Hiển thị kết quả
-
-if __name__ == "__main__":
-    main()  # Gọi hàm main khi chạy chương trình
