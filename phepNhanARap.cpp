@@ -83,15 +83,6 @@ string NhanArap (string x, string y)
       }
       return z;
    
-<<<<<<< HEAD
-=======
-}
-main()
-{ 
-  Fill();
-  View();
-  cout<<NhanArap(x,y);
->>>>>>> f9bad009273c72be2d18ec561bd8ae6d3ebb341a
 }
 main()
 { 
